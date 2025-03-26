@@ -9,8 +9,8 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 #include "zmk-helpers/helper.h"
-#include "crisispcb.overlay"
-#include "crisispcb_keypos.h"
+#include "myboard.overlay"
+#include "myboard_keypos.h"
 
 #define BASE      0
 #define LOWER     1
