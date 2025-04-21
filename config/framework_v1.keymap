@@ -43,11 +43,11 @@
         compatible = "zmk,conditional-layers";
         tri_layer {
             if-layers = <LOWER RAISE>;
-            then-layer = <EXTRAS>;
+            then-layer = <NUMBERS>;
         };
         tri_layer_mac {
             if-layers = <LOWERMAC RAISEMAC>;
-            then-layer = <EXTRAS>;
+            then-layer = <NUMBERS>;
         };
     };
 };
@@ -181,11 +181,11 @@ ZMK_BEHAVIOR(sch_macro, macro,
 
 
 ZMK_LAYER(base,
-  &kp HASH      &kp C           &kp L           &kp D         &kp K                                             &kp J            &kp F         &kp O         &kp U         &kp SEMI
-  &kp R         &hml LGUI S     &hml LCTRL T    &hml LSHIFT H &kp G                                             &kp M            &hmr RSHIFT N &hmr RCTRL E  &hmr RGUI I   &kp A
-  &kp Q         &kp W           &kp V           &lt NUMPAD B  &kp SQT                                           &kp COLON        &kp P         &kp X         &kp Y         &kp Z
-                &kp GRAVE       &kp DQT                                                                                                        &kp COMMA     &kp DOT
-                                &mt LALT TAB    &lt LOWER BSPC  &lt NUMBERS ESC              &lt LANG RET   &lt RAISE SPC     &alt_sqt RALT 0
+  &lt NUMPAD ESC &kp C           &kp L           &kp D         &kp K                                             &kp J            &kp F         &kp O         &kp U         &kp SEMI
+  &kp R          &hml LGUI S     &hml LCTRL T    &hml LSHIFT H &kp G                                             &kp M            &hmr RSHIFT N &hmr RCTRL E  &hmr RGUI I   &kp A
+  &kp Q          &kp W           &kp V           &lt NUMPAD B  &kp SQT                                           &kp COLON        &kp P         &kp X         &kp Y         &kp Z
+                 &kp GRAVE       &kp DQT                                                                                                        &kp COMMA     &kp DOT
+                                 &mt LALT TAB    &lt LOWER BSPC  &lt LANG ESC                 &lt LANG RET   &lt RAISE SPC     &alt_sqt RALT 0
 )
 
 ZMK_LAYER(lower,
@@ -213,11 +213,11 @@ ZMK_LAYER(raise,
 // -------------------------------------------------------------------
 
 ZMK_LAYER(basemac,
-  &kp M         &kp C          &kp L           &kp D         &kp K                                                        &kp J            &kp F         &kp O         &kp U         &kp SEMI
-  &kp R         &hml LGUI S    &hml LCTRL T    &hml LSHIFT H &kp G                                                        &kp M            &hmr RSHIFT N &hmr RCTRL E  &hmr RGUI I   &kp A
-  &kp Q         &kp W          &kp V           &lt NUMPAD B  &kp SQT                                                      &kp COLON        &kp P         &kp X         &kp Y         &kp Z
-                &kp GRAVE      &kp DQT                                                                                                        &kp COMMA     &kp DOT
-                                               &mt LALT TAB  &lt LOWERMAC BSPC  &lt NUMBERS ESC     &lt LANG RET   &lt RAISEMAC SPC &alt_sqt RALT 0
+  &lt NUMPAD ESC &kp C          &kp L           &kp D         &kp K                                                        &kp J            &kp F         &kp O         &kp U         &kp SEMI
+  &kp R          &hml LGUI S    &hml LCTRL T    &hml LSHIFT H &kp G                                                        &kp M            &hmr RSHIFT N &hmr RCTRL E  &hmr RGUI I   &kp A
+  &kp Q          &kp W          &kp V           &lt NUMPAD B  &kp SQT                                                      &kp COLON        &kp P         &kp X         &kp Y         &kp Z
+                 &kp GRAVE      &kp DQT                                                                                                        &kp COMMA     &kp DOT
+                                               &mt LALT TAB  &lt LOWERMAC BSPC  &lt LANG ESC     &lt LANG RET   &lt RAISEMAC SPC &alt_sqt RALT 0
 
 )
 
@@ -230,9 +230,9 @@ ZMK_LAYER(lowermac,
 )
 
 ZMK_LAYER(raisemac,
-  XXX           &kp AT        &kp HASH      &kp DOLLAR    &kp PERCENT                                         XXX           &kp AMPS      &kp LPAR      &kp RPAR      XXX
-  &kp BACKSLASH &kp LT        &kp SLASH     &kp GT        &kp QMARK                                           XXX           &kp PIPE      &kp LBRC      &kp RBRC      &kp CARET
-  &kp EXCL      &kp TILDE     &kp MINUS     &kp DOT       XXX                                                 &kp SEMI      &kp ASTERISK  &kp LBKT      &kp RBKT      &kp EQUAL     
+  XXX           &kp AT        &kp HASH      &kp DOLLAR    &kp PERCENT                                         XXX           &kp AMPS      &kp LPAR      &kp RPAR      &kp MINUS
+  &kp BACKSLASH &kp LT        &kp SLASH     &kp GT        &kp QMARK                                           XXX           &kp PIPE      &kp LBRC      &kp RBRC      &kp PLUS
+  &kp EXCL      &kp TILDE     &kp MINUS     &kp DOT       &kp CARET                                           &kp SEMI      &kp ASTERISK  &kp LBKT      &kp RBKT      &kp EQUAL     
                ___           ___                                                                                                         ___           ___
                                           ___    &lt LOWERMAC UNDERSCORE     ___                    ___         ___         ___
 )
@@ -269,7 +269,7 @@ ZMK_LAYER(numbers,
   &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                                          &kp F6          &kp F7        &kp KP_N8   &kp F9        &kp F10
   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                                    &kp NUMBER_6    &kp NUMBER_7  &kp KP_N8   &kp NUMBER_9  &kp NUMBER_0
   &kp F11       &kp F12       &kp F13       &kp F14       &kp F15                                         &kp F16         &kp F17       &kp KP_N8   &kp F19       &kp F20
-                    ___           ___                                                                                                   ___         ___
+                &mo BLUETOOTH ___                                                                                                       ___         ___
                                                   ___         ___         ___                   ___         ___           ___
 )
 
