@@ -8,3 +8,4 @@ zmk
 draw/base.yaml
 .cache
 build/.cache
+build

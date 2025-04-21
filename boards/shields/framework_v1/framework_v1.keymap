@@ -64,7 +64,7 @@
 // ------------------ COMBOS ------------------
 // --------------------------------------------
 // ZMK_COMBO(comboDoubleQuote1, &kp SQT, RM1 RM2, BASE)
-ZMK_COMBO(comboEqual, &kp EQUAL, RB0 RB1, BASE)
+
 ZMK_COMBO(comboLPar, &kp LPAR, LN1 LN2, BASE)
 ZMK_COMBO(comboLBrc, &kp LBRC, LT1 LT2, BASE)
 ZMK_COMBO(comboLBkt, &kp LBKT, LM1 LM2, BASE)
@@ -72,6 +72,12 @@ ZMK_COMBO(comboRPar, &kp RPAR, RN1 RN2, BASE)
 ZMK_COMBO(comboRBrc, &kp RBRC, RT1 RT2, BASE)
 ZMK_COMBO(comboRBkt, &kp RBKT, RM1 RM2, BASE)
 
+ZMK_COMBO(comboMinus, &kp MINUS, RN2 RN3, BASE)
+ZMK_COMBO(comboPlus, &kp PLUS, RT2 RT3, BASE)
+ZMK_COMBO(comboEqual, &kp EQUAL, RM2 RM3, BASE)
+
+ZMK_COMBO(comboExcl, &kp EXCL, LM2 LM3, BASE)
+ZMK_COMBO(comboExcl, &kp AT, LN2 LN3, BASE)
 
 // --------------------------------------------
 // ------------------- HMR --------------------
