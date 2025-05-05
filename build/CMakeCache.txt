@@ -585,7 +585,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_Dtc:INTERNAL=[/home/ps/zephyr-sdk-0.16.3/sysroots/x
 //Details about finding GnuLd
 FIND_PACKAGE_MESSAGE_DETAILS_GnuLd:INTERNAL=[/home/ps/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld.bfd][v2.38()]
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3][cfound components: Interpreter ][v3.13.2(3.8)]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3][cfound components: Interpreter ][v3.13.3(3.8)]
 //West
 WEST:INTERNAL=/usr/bin/python3;-m;west
 //a configuration file for the runners Python package
