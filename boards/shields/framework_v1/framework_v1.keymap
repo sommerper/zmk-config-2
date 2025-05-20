@@ -57,7 +57,7 @@
 #define ___ &trans
 
 #undef COMBO_TERM
-#define COMBO_TERM 18
+#define COMBO_TERM 15
 
 
 // --------------------------------------------
@@ -76,8 +76,10 @@ ZMK_COMBO(comboMinus, &kp MINUS, RN1 RN2, BASE)
 ZMK_COMBO(comboPlus, &kp PLUS, RT1 RT2, BASE)
 ZMK_COMBO(comboEqual, &kp EQUAL, RM1 RM2, BASE)
 
-ZMK_COMBO(comboExcl, &kp EXCL, LN2 LN1, BASE)
+ZMK_COMBO(comboUnderscore, &kp UNDERSCORE, LN2 LN1, BASE)
+ZMK_COMBO(comboExcl, &kp EXCL, LM2 LM1, BASE)
 ZMK_COMBO(comboAt, &kp AT, LT2 LT1, BASE)
+
 ZMK_COMBO(comboTab, &kp TAB, RB0 RB1, BASE)
 
 // --------------------------------------------
