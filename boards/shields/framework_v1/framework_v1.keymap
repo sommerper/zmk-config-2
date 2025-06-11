@@ -82,6 +82,8 @@ ZMK_COMBO(comboAt, &kp AT, LT2 LT1, BASE)
 
 ZMK_COMBO(comboTab, &kp TAB, RB0 RB1, BASE)
 
+ZMK_COMBO(comboNumpad, &lt NUMPAD ESC, LB0 LB1, BASE)
+
 // --------------------------------------------
 // ------------------- HMR --------------------
 // --------------------------------------------
@@ -203,6 +205,18 @@ ZMK_LAYER(base,
                  &kp GRAVE       &kp DQT                                                                                                        &kp COMMA     &kp DOT
                                  &mt LALT TAB    &lt LOWER BSPC  &lt LANG ESC              &lt LANG RET   &lt RAISE SPC     &alt_sqt RALT 0
 )
+
+
+// no hmr
+// ZMK_LAYER(base,
+//   &lt NUMPAD ESC &kp C           &kp L           &kp D         &kp K                                              &kp J             &kp F         &kp O         &kp U         &kp SEMI
+//   &kp R          &kp S           &kp T           &kp H         &kp G                                              &kp M             &kp N         &kp E         &kp I         &kp A
+//   &kp Q          &kp W           &kp V           &kp B         &kp SQT                                            &kp COLON         &kp P         &kp X         &kp Y         &kp Z
+//                  &hml LGUI GRAVE &hml LCTRL DQT                                                                                                  &hmr RCTRL COMMA     &hmr RGUI DOT
+//                                  &hml LSHIFT TAB    &lt LOWER BSPC  &mt LALT ESC              &lt LANG RET   &lt RAISE SPC     &hmr RSHIFT TAB
+// )
+
+
 
 ZMK_LAYER(lower,
   &tog BASEMAC  &kp K_VOL_DN    &kp K_MUTE      &kp K_VOL_UP  &kp LC(BSPC)                                      XXX              &kp HOME      XXX           &kp END       XXX
