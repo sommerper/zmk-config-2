@@ -56,33 +56,34 @@
 #define XXX &none
 #define ___ &trans
 
-#undef COMBO_TERM
-#define COMBO_TERM 15
+
 
 
 // --------------------------------------------
 // ------------------ COMBOS ------------------
 // --------------------------------------------
-ZMK_COMBO(comboLPar, &kp LPAR, LN3 LN2, BASE BASEMAC)
-ZMK_COMBO(comboRPar, &kp RPAR, RN2 RN3, BASE BASEMAC)
+#undef COMBO_TERM
+#define COMBO_TERM 15
+// ZMK_COMBO(comboLPar, &kp LPAR, LN3 LN2, BASE BASEMAC)
+// ZMK_COMBO(comboRPar, &kp RPAR, RN2 RN3, BASE BASEMAC)
 
-ZMK_COMBO(comboLBrc, &kp LBRC, LT3 LT2, BASE BASEMAC)
-ZMK_COMBO(comboRBrc, &kp RBRC, RT2 RT3, BASE BASEMAC)
+// ZMK_COMBO(comboLBrc, &kp LBRC, LT3 LT2, BASE BASEMAC)
+// ZMK_COMBO(comboRBrc, &kp RBRC, RT2 RT3, BASE BASEMAC)
 
-ZMK_COMBO(comboLBkt, &kp LBKT, LM3 LM2, BASE BASEMAC)
-ZMK_COMBO(comboRBkt, &kp RBKT, RM2 RM3, BASE BASEMAC)
+// ZMK_COMBO(comboLBkt, &kp LBKT, LM3 LM2, BASE BASEMAC)
+// ZMK_COMBO(comboRBkt, &kp RBKT, RM2 RM3, BASE BASEMAC)
 
-ZMK_COMBO(comboMinus, &kp MINUS, RN1 RN2, BASE BASEMAC)
-ZMK_COMBO(comboPlus, &kp PLUS, RT1 RT2, BASE BASEMAC)
-ZMK_COMBO(comboEqual, &kp EQUAL, RM1 RM2, BASE BASEMAC)
+// ZMK_COMBO(comboMinus, &kp MINUS, RN1 RN2, BASE BASEMAC)
+// ZMK_COMBO(comboPlus, &kp PLUS, RT1 RT2, BASE BASEMAC)
+// ZMK_COMBO(comboEqual, &kp EQUAL, RM1 RM2, BASE BASEMAC)
 
-ZMK_COMBO(comboUnderscore, &kp UNDERSCORE, LN2 LN1, BASE BASEMAC)
-ZMK_COMBO(comboExcl, &kp EXCL, LM2 LM1, BASE BASEMAC)
-ZMK_COMBO(comboAt, &kp AT, LT2 LT1, BASE BASEMAC)
+// ZMK_COMBO(comboUnderscore, &kp UNDERSCORE, LN2 LN1, BASE BASEMAC)
+// ZMK_COMBO(comboExcl, &kp EXCL, LM2 LM1, BASE BASEMAC)
+// ZMK_COMBO(comboAt, &kp AT, LT2 LT1, BASE BASEMAC)
 
-ZMK_COMBO(comboTab, &kp TAB, RB0 RB1, BASE BASEMAC)
+// ZMK_COMBO(comboTab, &kp TAB, RB0 RB1, BASE BASEMAC)
 
-ZMK_COMBO(comboNumpad, &lt NUMPAD ESC, LB0 LB1, BASE BASEMAC)
+// ZMK_COMBO(comboNumpad, &lt NUMPAD ESC, LB0 LB1, BASE BASEMAC)
 
 // --------------------------------------------
 // ------------------- HMR --------------------
