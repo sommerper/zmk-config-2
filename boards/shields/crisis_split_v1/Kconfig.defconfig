@@ -1,0 +1,23 @@
+if SHIELD_CRISIS_SPLIT_V1_LEFT
+
+    config ZMK_KEYBOARD_NAME
+        default "CRISIS_SPLIT_V1"
+
+    config ZMK_SPLIT_BLE_ROLE_CENTRAL
+        default y
+
+endif
+
+if SHIELD_CRISIS_SPLIT_V1_RIGHT
+
+    config ZMK_KEYBOARD_NAME
+        default "CRISIS_SPLIT_V1_R"
+
+endif
+
+if SHIELD_CRISIS_SPLIT_V1_LEFT || SHIELD_CRISIS_SPLIT_V1_RIGHT
+
+    config ZMK_SPLIT
+        default y
+
+endif

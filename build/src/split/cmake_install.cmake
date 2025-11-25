@@ -1,4 +1,4 @@
-# Install script for directory: /home/ps/dev/github/zmk-config-2/zmk/app/src/split
+# Install script for directory: /home/ps/dev_github/zmk-config-2/zmk/app/src/split
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/ps/dev/github/zmk-config-2/build/src/split/install_local_manifest.txt"
+  file(WRITE "/home/ps/dev_github/zmk-config-2/build/src/split/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

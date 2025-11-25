@@ -10,8 +10,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 #include "zmk-helpers/helper.h"
-#include "framework_v1.overlay"
-#include "framework_v1_keypos.h"
+#include "crisis_split_v1_keypos.h"
 
 
 #define BASE      0

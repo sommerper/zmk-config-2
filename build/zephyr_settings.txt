@@ -6,11 +6,11 @@
 # and/or the west manifest file.
 #
 # See the Modules guide for more information.
-"DTS_ROOT":"/home/ps/dev/github/zmk-config-2/modules/zmk/adaptive-key"
-"DTS_ROOT":"/home/ps/dev/github/zmk-config-2/modules/zmk/auto-layer"
-"DTS_ROOT":"/home/ps/dev/github/zmk-config-2/modules/zmk/helpers"
-"DTS_ROOT":"/home/ps/dev/github/zmk-config-2/modules/zmk/leader-key"
-"DTS_ROOT":"/home/ps/dev/github/zmk-config-2/modules/zmk/tri-state"
-"DTS_ROOT":"/home/ps/dev/github/zmk-config-2/modules/hal/stm32"
-"DTS_ROOT":"/home/ps/dev/github/zmk-config-2/zmk/app/module"
-"MODULE_EXT_ROOT":"/home/ps/dev/github/zmk-config-2/zmk/app/keymap-module"
+"DTS_ROOT":"/home/ps/dev_github/zmk-config-2/modules/zmk/adaptive-key"
+"DTS_ROOT":"/home/ps/dev_github/zmk-config-2/modules/zmk/auto-layer"
+"DTS_ROOT":"/home/ps/dev_github/zmk-config-2/modules/zmk/helpers"
+"DTS_ROOT":"/home/ps/dev_github/zmk-config-2/modules/zmk/leader-key"
+"DTS_ROOT":"/home/ps/dev_github/zmk-config-2/modules/zmk/tri-state"
+"DTS_ROOT":"/home/ps/dev_github/zmk-config-2/modules/hal/stm32"
+"DTS_ROOT":"/home/ps/dev_github/zmk-config-2/zmk/app/module"
+"MODULE_EXT_ROOT":"/home/ps/dev_github/zmk-config-2/zmk/app/keymap-module"

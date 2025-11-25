@@ -1,59 +1,59 @@
-menu "zmk-adaptive-key (/home/ps/dev/github/zmk-config-2/modules/zmk/adaptive-key)"
-osource "/home/ps/dev/github/zmk-config-2/modules/zmk/adaptive-key/Kconfig"
+menu "zmk-adaptive-key (/home/ps/dev_github/zmk-config-2/modules/zmk/adaptive-key)"
+osource "/home/ps/dev_github/zmk-config-2/modules/zmk/adaptive-key/Kconfig"
 config ZEPHYR_ZMK_ADAPTIVE_KEY_MODULE
 	bool
 	default y
 endmenu
-menu "zmk-auto-layer (/home/ps/dev/github/zmk-config-2/modules/zmk/auto-layer)"
-osource "/home/ps/dev/github/zmk-config-2/modules/zmk/auto-layer/Kconfig"
+menu "zmk-auto-layer (/home/ps/dev_github/zmk-config-2/modules/zmk/auto-layer)"
+osource "/home/ps/dev_github/zmk-config-2/modules/zmk/auto-layer/Kconfig"
 config ZEPHYR_ZMK_AUTO_LAYER_MODULE
 	bool
 	default y
 endmenu
-menu "zmk-leader-key (/home/ps/dev/github/zmk-config-2/modules/zmk/leader-key)"
-osource "/home/ps/dev/github/zmk-config-2/modules/zmk/leader-key/Kconfig"
+menu "zmk-leader-key (/home/ps/dev_github/zmk-config-2/modules/zmk/leader-key)"
+osource "/home/ps/dev_github/zmk-config-2/modules/zmk/leader-key/Kconfig"
 config ZEPHYR_ZMK_LEADER_KEY_MODULE
 	bool
 	default y
 endmenu
-menu "tri-state (/home/ps/dev/github/zmk-config-2/modules/zmk/tri-state)"
-osource "/home/ps/dev/github/zmk-config-2/modules/zmk/tri-state/Kconfig"
+menu "tri-state (/home/ps/dev_github/zmk-config-2/modules/zmk/tri-state)"
+osource "/home/ps/dev_github/zmk-config-2/modules/zmk/tri-state/Kconfig"
 config ZEPHYR_TRI_STATE_MODULE
 	bool
 	default y
 endmenu
-menu "nanopb (/home/ps/dev/github/zmk-config-2/modules/lib/nanopb)"
+menu "nanopb (/home/ps/dev_github/zmk-config-2/modules/lib/nanopb)"
 osource "$(ZEPHYR_NANOPB_KCONFIG)"
 config ZEPHYR_NANOPB_MODULE
 	bool
 	default y
 endmenu
-menu "cmsis (/home/ps/dev/github/zmk-config-2/modules/hal/cmsis)"
+menu "cmsis (/home/ps/dev_github/zmk-config-2/modules/hal/cmsis)"
 osource "$(ZEPHYR_CMSIS_KCONFIG)"
 config ZEPHYR_CMSIS_MODULE
 	bool
 	default y
 endmenu
-menu "hal_nordic (/home/ps/dev/github/zmk-config-2/modules/hal/nordic)"
+menu "hal_nordic (/home/ps/dev_github/zmk-config-2/modules/hal/nordic)"
 osource "$(ZEPHYR_HAL_NORDIC_KCONFIG)"
 config ZEPHYR_HAL_NORDIC_MODULE
 	bool
 	default y
 endmenu
-menu "hal_rpi_pico (/home/ps/dev/github/zmk-config-2/modules/hal/rpi_pico)"
+menu "hal_rpi_pico (/home/ps/dev_github/zmk-config-2/modules/hal/rpi_pico)"
 osource "$(ZEPHYR_HAL_RPI_PICO_KCONFIG)"
 config ZEPHYR_HAL_RPI_PICO_MODULE
 	bool
 	default y
 endmenu
-menu "lvgl (/home/ps/dev/github/zmk-config-2/modules/lib/gui/lvgl)"
-osource "/home/ps/dev/github/zmk-config-2/modules/lib/gui/lvgl/Kconfig"
+menu "lvgl (/home/ps/dev_github/zmk-config-2/modules/lib/gui/lvgl)"
+osource "/home/ps/dev_github/zmk-config-2/modules/lib/gui/lvgl/Kconfig"
 config ZEPHYR_LVGL_MODULE
 	bool
 	default y
 endmenu
-menu "module (/home/ps/dev/github/zmk-config-2/zmk/app/module)"
-osource "/home/ps/dev/github/zmk-config-2/zmk/app/module/Kconfig"
+menu "module (/home/ps/dev_github/zmk-config-2/zmk/app/module)"
+osource "/home/ps/dev_github/zmk-config-2/zmk/app/module/Kconfig"
 config ZEPHYR_MODULE_MODULE
 	bool
 	default y
