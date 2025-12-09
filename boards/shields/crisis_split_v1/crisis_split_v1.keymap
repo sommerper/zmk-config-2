@@ -162,7 +162,7 @@ ZMK_LAYER(base,
                               &kp C        &kp L        &kp D        &kp K                                                                   &kp J            &kp F             &kp O           &kp U         
                   &kp AT      &kp S        &kp T        &kp H        &kp G                                                                   &kp M            &kp N             &kp E           &kp I         &kp A 
     &kp BACKSLASH &kp R       &kp W        &kp V        &kp B        &kp SQT                                                                 &kp COLON        &kp P             &kp X           &kp Y         &kp Z      &kp SEMI
-                  &kp Q       &kp GRAVE   &kp DQT      &kp DQT      &kp TILDE    &kp SLASH  &kp QMARK                &kp LT     &kp GT       &kp SEMI         &kp COMMA         &kp COLON       &kp LPAR      &kp RPAR         
+                  &kp Q       &kp GRAVE   &kp DQT       &kp MINUS    &kp TILDE    &kp SLASH  &kp QMARK                &kp LT     &kp GT       &kp SEMI         &kp COMMA         &kp COLON       &kp LPAR      &kp RPAR         
 )
 
 // ZMK_LAYER(base,
