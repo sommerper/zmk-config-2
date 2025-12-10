@@ -174,7 +174,7 @@ ZMK_LAYER(lower,
                                 &kp K_VOL_DN     &kp K_MUTE      &kp K_VOL_UP &kp LG(BSPC)                                                              XXX             &kp HOME         XXX                &kp END
                   &tog BASEMAC  &kp LGUI         &kp LCTRL       &kp LSHIFT   &kp BSPC                                                                  XXX             &kp LEFT         &kp UP             &kp RIGHT      &kp END
     &caps_word    XXX           XXX              &copy_cut       &kp LS(INS)  &kp DEL                                                                   XXX             &kp PG_UP        &kp DOWN           &kp PG_DN      &kp RETURN      &kp RETURN
-                  &kp LC(Z)     &kp LGUI         &kp LCTRL       &kp LSHIFT   &kp LALT         XXX  XXX                  &kp MINUS       &kp UNDERSCORE  &kp RALT        &kp RSHIFT       &kp RCTRL          &kp RGUI       &kp LC(SLASH)
+                  &kp LC(Z)     &kp LGUI         &kp LCTRL       &kp LSHIFT   &kp LALT         XXX  XXX                  &kp MINUS        &kp UNDERSCORE  &kp RALT        &kp RSHIFT       &kp RCTRL          &kp RGUI       &kp LC(SLASH)
 )
 
 ZMK_LAYER(raise,
@@ -229,7 +229,7 @@ ZMK_LAYER(numpad,
                                 XXX              XXX             XXX          XXX                                                                      &kp KP_DIVIDE    &kp KP_N7       &kp KP_N8           &kp KP_N9      
                   XXX           XXX              XXX             XXX          XXX                                                                      &kp KP_MULTIPLY  &kp KP_N4       &kp KP_N5           &kp KP_N6      &kp KP_MINUS
     XXX           XXX           XXX              XXX             XXX          XXX                                                                      &kp COLON        &kp KP_N1       &kp KP_N2           &kp KP_N3      &kp KP_PLUS     &kp KP_EQUAL 
-                  XXX           XXX              XXX             XXX          XXX         XXX       XXX                   XXX           &kp KP_N0      &kp DOT          &kp RSHIFT      &hmr RCTRL COMMA    &hmr RGUI DOT  &kp KP_EQUAL 
+                  XXX           &kp CAPSLOCK     &kp KP_NUMLOCK  XXX          XXX         XXX       XXX                   XXX           &kp KP_N0      &kp DOT          &kp RSHIFT      &hmr RCTRL COMMA    &hmr RGUI DOT  &kp KP_EQUAL 
 
   )
 
