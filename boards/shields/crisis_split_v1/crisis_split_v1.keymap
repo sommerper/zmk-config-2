@@ -192,11 +192,10 @@ ZMK_LAYER(raise,
 // // // Mac start
 // // // -------------------------------------------------------------------
 
-
 ZMK_LAYER(basemac,
-                                &kp C            &kp L           &kp D         &kp K                                                                       &kp J           &kp F            &kp O              &kp U         
-                  XXX           &hml LGUI S      &hml LCTRL T    &hml LSHIFT H &kp G                                                                       &kp M           &hmr RSHIFT N    &hmr RCTRL E       &hmr RGUI I    &kp SEMI 
-    &kp ESC       &kp R         &kp W            &kp V           &kp B         &kp SQT                                                                     &kp COLON       &kp P            &kp X              &kp Y          &kp A           &kp RETURN
+                                &kp C            &kp L           &kp D         &kp K                                                                                &kp J           &kp F            &kp O              &kp U         
+                  XXX           &hml LGUI S      &hml LCTRL T    &hml LSHIFT H &kp G                                                                                &kp M           &hmr RSHIFT N    &hmr RCTRL E       &hmr RGUI I    &kp SEMI 
+    &kp ESC       &kp R         &kp W            &kp V           &kp B         &kp SQT                                                                              &kp COLON       &kp P            &kp X              &kp Y          &kp A           &kp RETURN
                   &kp Q         &hml LGUI GRAVE  &hml LCTRL DQT  &kp LSHIFT    &mt LALT TAB   &lt LOWERMAC BSPC  &lt LANG ESC       &lt LANG RET  &lt RAISEMAC SPC  &kp RALT        &kp RSHIFT       &hmr RCTRL COMMA   &hmr RGUI DOT  &kp Z
 )
 // ZMK_LAYER(basemac,
@@ -209,8 +208,8 @@ ZMK_LAYER(basemac,
 ZMK_LAYER(lowermac,
                                 &kp K_VOL_DN     &kp K_MUTE      &kp K_VOL_UP &kp LG(BSPC)                                                             &kp HOME        &kp LG(LEFT)     XXX                &kp LG(RIGHT)
                   XXX           &kp LGUI         &kp LCTRL       &kp LSHIFT   &kp BSPC                                                                 XXX             &kp LEFT         &kp UP             &kp RIGHT      &kp END
-    &caps_word    &kp LG(Z)     XXX              &copy_cut_mac   &kp LG(INS)  &kp DEL                                                                  XXX             &kp PG_UP        &kp DOWN           &kp PG_DN      &kp RETURN      &kp RETURN
-                  &kp Q         &hml LGUI GRAVE  &hml LCTRL DQT  &kp LSHIFT   &kp LALT    XXX  XXX                   &kp MINUS           &kp UNDERSCORE &kp RALT        &kp RSHIFT       &hmr RCTRL COMMA   &hmr RGUI DOT  &kp LG(SLASH)
+    &caps_word    &caps_word    XXX              &copy_cut_mac   &kp LG(V)    &kp DEL                                                                  XXX             &kp PG_UP        &kp DOWN           &kp PG_DN      &kp RETURN      &kp RETURN
+                  &kp LG(Z)     &hml LGUI GRAVE  &hml LCTRL DQT  &kp LSHIFT   &kp LALT    XXX  XXX                  &kp MINUS           &kp UNDERSCORE &kp RALT        &kp RSHIFT       &hmr RCTRL COMMA   &hmr RGUI DOT  &kp LG(SLASH)
 )
 
 ZMK_LAYER(raisemac,
