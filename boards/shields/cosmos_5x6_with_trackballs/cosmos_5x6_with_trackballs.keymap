@@ -52,22 +52,22 @@
 // --------------------------------------------
 // ------------------ COMBOS ------------------
 // --------------------------------------------
-ZMK_COMBO(comboLPar, &kp LPAR, LT3 LT2, BASE BASEMAC)
-ZMK_COMBO(comboRPar, &kp RPAR, RT3 RT2, BASE BASEMAC)
+// ZMK_COMBO(comboLPar, &kp LPAR, LT3 LT2, BASE BASEMAC)
+// ZMK_COMBO(comboRPar, &kp RPAR, RT3 RT2, BASE BASEMAC)
 
-ZMK_COMBO(comboLBrc, &kp LBRC, LM3 LM2, BASE BASEMAC)
-ZMK_COMBO(comboRBrc, &kp RBRC, RM3 RM2, BASE BASEMAC)
+// ZMK_COMBO(comboLBrc, &kp LBRC, LM3 LM2, BASE BASEMAC)
+// ZMK_COMBO(comboRBrc, &kp RBRC, RM3 RM2, BASE BASEMAC)
 
-ZMK_COMBO(comboLBkt, &kp LBKT, LB3 LB2, BASE BASEMAC)
-ZMK_COMBO(comboRBkt, &kp RBKT, RB3 RB2, BASE BASEMAC)
+// ZMK_COMBO(comboLBkt, &kp LBKT, LB3 LB2, BASE BASEMAC)
+// ZMK_COMBO(comboRBkt, &kp RBKT, RB3 RB2, BASE BASEMAC)
 
-ZMK_COMBO(comboMinus, &kp MINUS, RT1 RT2, BASE BASEMAC)
-ZMK_COMBO(comboPlus, &kp PLUS, RM1 RM2, BASE BASEMAC)
-ZMK_COMBO(comboEqual, &kp EQUAL, RB1 RB2, BASE BASEMAC)
+// ZMK_COMBO(comboMinus, &kp MINUS, RT1 RT2, BASE BASEMAC)
+// ZMK_COMBO(comboPlus, &kp PLUS, RM1 RM2, BASE BASEMAC)
+// ZMK_COMBO(comboEqual, &kp EQUAL, RB1 RB2, BASE BASEMAC)
 
-ZMK_COMBO(comboExcl, &kp EXCL, LT2 LT1, BASE BASEMAC)
-ZMK_COMBO(comboAt, &kp AT, LM2 LM1, BASE BASEMAC)
-ZMK_COMBO(comboTab, &kp TAB, RQ0 RQ1, BASE BASEMAC)
+// ZMK_COMBO(comboExcl, &kp EXCL, LT2 LT1, BASE BASEMAC)
+// ZMK_COMBO(comboAt, &kp AT, LM2 LM1, BASE BASEMAC)
+// ZMK_COMBO(comboTab, &kp TAB, RQ0 RQ1, BASE BASEMAC)
 // -----------------COMBOS--------------------
 
 
@@ -336,10 +336,10 @@ ZMK_LAYER(lower,
 )
 
 ZMK_LAYER(raise,
-                    &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                                              &kp F6        &kp F7        &kp F8        &kp F9        &kp F10
-                    XXX           &kp AT        &kp HASH      &kp DOLLAR    &kp PERCENT                                         XXX           &kp AMPS      &kp LPAR      &kp RPAR      XXX
- &tog BASE_NO_HMR   &kp BACKSLASH &kp LT        &kp SLASH     &kp GT        &kp QMARK                                           XXX           &kp PIPE      &kp LBRC      &kp RBRC      &kp CARET    XXX
-                    &kp EXCL      &kp TILDE     &kp MINUS     &kp DOT       XXX                                                 &kp SEMI      &kp ASTERISK  &kp LBKT      &kp RBKT      &kp EQUAL
+                    &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                                              &kp F6          &kp F7        &kp F8        &kp F9        &kp F10
+                    XXX           &kp AT        &kp HASH      &kp DOLLAR    &kp PERCENT                                         &kp KP_DIVIDE   &kp AMPS      &kp LPAR      &kp RPAR      &kp KP_MINUS
+ &tog BASE_NO_HMR   &kp BACKSLASH &kp LT        &kp SLASH     &kp GT        &kp QMARK                                           &kp KP_MULTIPLY &kp PIPE      &kp LBRC      &kp RBRC      &kp KP_PLUS    XXX
+                    &kp EXCL      &kp TILDE     &kp MINUS     &kp DOT       &kp CARET                                           &kp SEMI        &kp ASTERISK  &kp LBKT      &kp RBKT      &kp EQUAL
                            ___           ___                                                                                                         ___           ___
                                                       ___    &lt LOWER UNDERSCORE     ___    ___             ___    ___         ___         &kp EQUAL
 )
@@ -373,10 +373,10 @@ ZMK_LAYER(lowermac,
 )
 
 ZMK_LAYER(raisemac,
-          &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                                              &kp F6        &kp F7        &kp F8        &kp F9        &kp F10
-          XXX           &kp AT        &kp HASH      &kp DOLLAR    &kp PERCENT                                         XXX           &kp AMPS      &kp LPAR      &kp RPAR      XXX
- XXX      &kp BACKSLASH &kp LT        &kp SLASH     &kp GT        &kp QMARK                                           XXX           &kp PIPE      &kp LBRC      &kp RBRC      &kp CARET    XXX
-          &kp EXCL      &kp TILDE     &kp MINUS     &kp DOT       XXX                                                 &kp SEMI      &kp ASTERISK  &kp LBKT      &kp RBKT      &kp EQUAL     
+          &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                                              &kp F6          &kp F7        &kp F8        &kp F9        &kp F10
+          XXX           &kp AT        &kp HASH      &kp DOLLAR    &kp PERCENT                                         &kp KP_DIVIDE   &kp AMPS      &kp LPAR      &kp RPAR      &kp KP_MINUS
+ XXX      &kp BACKSLASH &kp LT        &kp SLASH     &kp GT        &kp QMARK                                           &kp KP_MULTIPLY &kp PIPE      &kp LBRC      &kp RBRC      &kp KP_PLUS    XXX
+          &kp EXCL      &kp TILDE     &kp MINUS     &kp DOT       &kp CARET                                           &kp SEMI        &kp ASTERISK  &kp LBKT      &kp RBKT      &kp EQUAL     
                          ___           ___                                                                                                         ___           ___
                                                     ___    &lt LOWERMAC UNDERSCORE     ___   ___              ___    ___         ___         ___
 )
