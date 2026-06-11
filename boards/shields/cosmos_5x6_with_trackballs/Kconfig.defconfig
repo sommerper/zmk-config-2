@@ -1,0 +1,23 @@
+if SHIELD_COSMOS_5X6_WITH_TRACKBALLS_LEFT
+
+    config ZMK_KEYBOARD_NAME
+        default "COSMOSTRCK"
+
+    config ZMK_SPLIT_BLE_ROLE_CENTRAL
+        default y
+
+endif
+
+if SHIELD_COSMOS_5X6_WITH_TRACKBALLS_RIGHT
+
+    config ZMK_KEYBOARD_NAME
+        default "COSMOSTRCK_R"
+
+endif
+
+if SHIELD_COSMOS_5X6_WITH_TRACKBALLS_LEFT || SHIELD_COSMOS_5X6_WITH_TRACKBALLS_RIGHT
+
+    config ZMK_SPLIT
+        default y
+
+endif

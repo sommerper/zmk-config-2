@@ -1,0 +1,5 @@
+config SHIELD_COSMOS_5X6_WITH_TRACKBALLS_LEFT
+    def_bool $(shields_list_contains,cosmos_5x6_with_trackballs_left)
+
+config SHIELD_COSMOS_5X6_WITH_TRACKBALLS_RIGHT
+    def_bool $(shields_list_contains,cosmos_5x6_with_trackballs_right)
