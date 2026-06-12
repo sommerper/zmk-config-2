@@ -238,9 +238,9 @@ ZMK_LAYER(lower,
 )
 
 ZMK_LAYER(raise,
-  XXX           &kp AT          &kp HASH        &kp DOLLAR    &kp PERCENT                                         XXX           &kp AMPS      &kp LPAR      &kp RPAR      &kp MINUS
-  &kp BACKSLASH &kp LT          &kp SLASH       &kp GT        &kp QMARK                                           &kp CARET     &kp PIPE      &kp LBRC      &kp RBRC      &kp PLUS
-  &kp EXCL      &kp TILDE       &kp MINUS       &kp DOT       XXX                                                 &kp SEMI      &kp ASTERISK  &kp LBKT      &kp RBKT      &kp EQUAL
+  XXX           &kp AT          &kp HASH        &kp DOLLAR    &kp PERCENT                                         &kp KP_DIVIDE   &kp AMPS      &kp LPAR      &kp RPAR      &kp MINUS
+  &kp BACKSLASH &kp LT          &kp SLASH       &kp GT        &kp QMARK                                           &kp KP_MULTIPLY &kp PIPE      &kp LBRC      &kp RBRC      &kp PLUS
+  &kp EXCL      &kp TILDE       &kp MINUS       &kp DOT       &kp CARET                                           &kp SEMI        &kp ASTERISK  &kp LBKT      &kp RBKT      &kp EQUAL
            ___           ___                                                                                                         ___           ___
                                       ___    &lt LOWER UNDERSCORE     ___                    ___         ___         &kp EQUAL
 )
